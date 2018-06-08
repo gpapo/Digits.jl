@@ -41,7 +41,7 @@ function digithist(l::Array{Int,1})
   h = zeros(Int,10)
   for i in 1:length(l)
     d = abs(l[i])
-    h[d+1] .= h[d+1] + 1
+    h[d+1] = h[d+1] + 1
   end
   return h
 end

@@ -1,10 +1,5 @@
 module Digits
 
-import Base:
-  contains,
-  startswith,
-  endswith
-
 export
   reversedigits,
   reversedigits!,
@@ -12,9 +7,6 @@ export
   digithist,
   isanagram,
   ispalindrome,
-  contains,
-  startswith,
-  endswith,
   crop,
   combine,
   crosssum,

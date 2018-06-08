@@ -1,5 +1,5 @@
 using Digits
-@static if VERSION < v"0.7-dev"
+@static if VERSION < v"0.7-DEV"
     @eval using Base.Test
 else
     @eval using Test

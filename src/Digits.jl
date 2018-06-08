@@ -50,7 +50,7 @@ function digithist(n::Integer)
   h = zeros(Int,10)
   for i=1:ndigits(n)
     d = abs(rem(n,10))
-    h[d+1] .= h[d+1] + 1
+    h[d+1] = h[d+1] + 1
     n = div(n,10)
   end
   return h
